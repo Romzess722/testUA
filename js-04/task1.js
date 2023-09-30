@@ -56,3 +56,6 @@ function openTest() {
 
 const img = document.querySelector(".img");
 img.addEventListener("click", openTest);
+if (errorCounter === 0) {
+  alert("Ти справжній українець!!!");
+}
