@@ -23,7 +23,7 @@ function runTest(qustions, answers) {
         break;
       } else {
         errorCounter = errorCounter + 1;
-        alert(`You hav ${errorCounter} mistake`);
+        alert(`Ти помилився ${errorCounter} раз, більше неможна!!!`);
       }
     }
   }
@@ -46,11 +46,10 @@ const answersUA = [
   "Україні",
   "нації",
   "ворогам",
-  "понад усе!",
+  "понад усе",
 ];
 
 function openTest() {
-  // const newWindow = window.open("", "_blank");
   runTest(qustionsUA, answersUA);
 }
 
