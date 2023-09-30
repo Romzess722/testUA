@@ -51,6 +51,7 @@ const answersUA = [
 
 function openTest() {
   runTest(qustionsUA, answersUA);
+  alert("Ти справжній українець!!!");
 }
 
 const img = document.querySelector(".img");
