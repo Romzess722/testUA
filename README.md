@@ -1,1 +1,1 @@
-# This test on real ukreinians
+# Test for a true Ukrainian
